@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #8196a9;
+  padding-bottom: 20px;
+}
+
+.one {
+  background-color: #98a9be;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  color: white;
+  width: 85%;
+  margin: auto;
+}
+
+.one div {
+  width: 300px;
+}
+
+.one p {
+  margin-top: 10px;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.one img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.two {
+  display: flex;
+  justify-content: space-between;
+  background-color: #728495;
+  padding: 10px;
+  width: 85%;
+  margin: auto;
+}
+
+.two p {
+  display: inline-block;
+  color: white;
+}
+
+.three {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
+  width: 85%;
+  background-color: #98a9be;
+  padding: 20px;
+  color: white;
+}
+
+.three img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.three div {
+  width: 300px;
+  margin: 0 20px;
+}
+
+.three p {
+  margin: 10px auto;
+}
+
+.three button {
+  background-color: #0e1d21;
+  padding: 10px;
+  border: none;
+  color: white;
+}
+
+.four {
+  margin: 20px auto;
+  width: 85%;
+  background-color: #98a9be;
+  padding: 20px;
+  color: white;
+}
+
+.four div {
+  display: flex;
+}
+
+.four .four-div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.four-div {
+  width: 40%;
+}
+
+.four img {
+  width: 20px;
+  height: 20px;
+  margin-right: 3px;
+  border-radius: 50%;
+}
+
+.five {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 85%;
+  background-color: #263a47;
+  padding: 20px;
+  color: white;
+}
+
+.five p {
+  margin-top: 10px;
+}
+
+.five div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 300px;
+}
+
+.five img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
