@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"path": "../js-code-practice"
+		},
+		{
+			"path": "../js-prj/backend"
+		},
+		{
+			"path": "../js-prj/data"
+		},
+		{
+			"path": "../js-prj/footcap-master"
+		},
+		{
+			"path": "../js-prj/images"
+		},
+		{
+			"path": "../js-prj/scripts"
+		},
+		{
+			"path": "../js-prj/styles"
+		},
+		{
+			"path": "../js-prj/tests"
+		}
+	],
+	"settings": {}
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles/one.css">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1>My Portfolio</h1>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p><div id="output"></div></p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>React, Node.js</li>
+        <li>Responsive Design</li>
+        <li>Git, GitHub</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project">
+        <img src="images/one/amazon clone.png" alt="Project 1">
+        <h3>Project One</h3>
+        <a href="https://barakamukungu.github.io/portfolio/amazon.html">See more</a>
+      </div>
+      <div class="project">
+        <img src="images/one/eight.png" alt="Project 2">
+        <h3>Project Two</h3>
+        <a href="https://barakamukungu.github.io/portfolio/eight.html">See more</a>
+      </div>
+      <div class="project">
+        <img src="images/one/two.png" alt="Project 3">
+        <h3>Project Three</h3>
+        <a href="https://barakamukungu.github.io/portfolio/two.html">See more</a>
+      </div>
+      <div class="project">
+        <img src="images/one/seven.png" alt="Project 4">
+        <h3>Project Four</h3>
+        <a href="https://barakamukungu.github.io/portfolio/seven.html">See more</a>
+      </div>
+      <div class="project">
+        <img src="images/one/furniuture.png" alt="Project 5">
+        <h3>Project Five</h3>
+        <a href="https://barakamukungu.github.io/portfolio/six.html">See more</a>
+      </div>
+      <div class="project">
+        <img src="images/one/four.png" alt="Project 6">
+        <h3>Project Six</h3>
+        <a href="https://barakamukungu.github.io/portfolio/four.html">See more</a>
+      </div>
+      <div class="project">
+        <img src="images/one/five.png" alt="Project 7">
+        <h3>Project Seven</h3>
+        <a href="https://barakamukungu.github.io/portfolio/five.html">See more</a>
+      </div> 
+      <div class="project">
+        <img src="images/one/three.png" alt="Project 7">
+        <h3>Project Eight</h3>
+        <a href="https://barakamukungu.github.io/portfolio/three.html">See more</a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <div class="dropdown">
+          <button type="submit">Send Message</button>
+          <div class="dropdown-content">
+            <button type="submit"><a href="mailto:barakamukungu8@gmail.com">Email</a></button>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+            <button type="submit"><a href="https://api.whatsapp.com/send?phone=+254718279267&text=Inquire" class="float" target="_blank">
+            <i class="fa fa-whatsapp my-float"></i>WhatsApp
+            </a></button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 barakamukungu</p>
+    </div>
+  </footer>
+
+  <script>
+    // Example string to display
+    const text = "Hi👋, my name is Baraka Mukungu. I'm a web developer/designer passionate about building modern and responsive websites. I have experience with front-end and back-end technologies.";
+    const outputElement = document.getElementById("output");
+
+    function displayLetters(text) {
+      let index = 0;
+
+      // Use setInterval to display each letter with a delay
+      const interval = setInterval(() => {
+        outputElement.textContent += text[index]; // Append the current letter
+        index++;
+
+        // Clear the interval when all letters are displayed
+        if (index >= text.length) {
+          clearInterval(interval);
+        }
+      }, 200); // Delay of 200ms between each letter
+    }
+
+    // Call the function to start the animation
+    displayLetters(text);
+  </script>
+</body>
+</html> 
