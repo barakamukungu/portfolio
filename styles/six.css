@@ -134,6 +134,28 @@ article img {
   margin: auto;
   padding: 20px 0;
  }
+
+ header p {
+  font-weight: 40px;
+ }
+
+ .hp {
+  font-size: 18px;
+ }
+
+ .hab {
+  padding: 16px;
+  font-size: 14px;
+ }
+
+ .hb {
+  padding: 16px;
+  font-size: 14px;
+ }
+
+ section p {
+  font-size: 40px;
+ }
 }
 
 @media only screen and (min-width: 1800px) {
