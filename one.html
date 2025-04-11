@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio</title>
-  <link rel="stylesheet" href="styles/one.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Baraka Mukungu | Web Developer</title>
+  <link rel="stylesheet" href="styles/one.css" />
 </head>
 <body>
 
   <header>
     <div class="container">
-      <h1>My Portfolio</h1>
+      <h1>Baraka Mukungu</h1>
       <nav>
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
@@ -20,96 +20,90 @@
     </div>
   </header>
 
-  <section id="about">
-    <div class="container">
-      <h2>About Me</h2>
-      <p><div id="output"></div></p>
-    </div>
-  </section>
+  <main>
+    <section id="about">
+      <div class="container">
+        <h2>About Me</h2>
+        <p id="output" aria-label="Animated introduction text">Hi👋, my name is Baraka Mukungu. I'm a web developer/designer passionate about building modern and responsive websites. I have experience with front-end and back-end technologies.</p>
+      </div>
+    </section>
 
-  <section id="skills">
-    <div class="container">
-      <h2>Skills</h2>
-      <ul>
-        <li>HTML, CSS, JavaScript</li>
-        <li>React, Node.js</li>
-        <li>Responsive Design</li>
-        <li>Git, GitHub</li>
-      </ul>
-    </div>
-  </section>
+    <section id="skills">
+      <div class="container">
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML, CSS, JavaScript</li>
+          <li>React, Node.js</li>
+          <li>Responsive Design</li>
+          <li>Git, GitHub</li>
+        </ul>
+      </div>
+    </section>
 
-  <section id="projects">
-    <div class="container">
-      <h2>Projects</h2>
-      <div class="project">
-        <img src="images/one/Screenshot 2025-04-08 213718.png" alt="Project 1">
-        <h3>Project One</h3>
-        <a href="https://barakamukungu.github.io/restaurant-app/">See more</a>
+    <section id="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="project-grid">
+          <!-- Repeat this block for each project -->
+          <div class="project">
+            <img src="images/one/Screenshot 2025-04-08 213718.png" alt="Restaurant App" />
+            <h3>Restaurant App</h3>
+            <a href="https://barakamukungu.github.io/restaurant-app/" target="_blank">View Project</a>
+          </div>
+          <div class="project">
+            <img src="images/one/Screenshot 2025-04-08 213525.png" alt="Salon App" />
+            <h3>Salon App</h3>
+            <a href="https://barakamukungu.github.io/salon_app" target="_blank">View Project</a>
+          </div>
+          <div class="project">
+            <img src="images/one/eight.png" alt="Business Site" />
+            <h3>Business Site</h3>
+            <a href="https://barakamukungu.github.io/portfolio/eight.html" target="_blank">View Project</a>
+          </div>
+          <div class="project">
+            <img src="images/one/Screenshot 2025-04-08 213805.png" alt="Travel App" />
+            <h3>Travel App</h3>
+            <a href="https://barakamukungu.github.io/travel-app" target="_blank">View Project</a>
+          </div>
+          <div class="project">
+            <img src="images/one/amazon clone.png" alt="Amazon Clone" />
+            <h3>Amazon Clone</h3>
+            <a href="https://barakamukungu.github.io/project/amazon.html" target="_blank">View Project</a>
+          </div>
+        </div>
       </div>
-      <div class="project">
-        <img src="images/one/Screenshot 2025-04-08 213525.png" alt="Project 2">
-        <h3>Project Two</h3>
-        <a href="https://barakamukungu.github.io/salon_app">See more</a>
-      </div>
-      <div class="project">
-        <img src="images/one/eight.png" alt="Project 3">
-        <h3>Project Three</h3>
-        <a href="https://barakamukungu.github.io/portfolio/eight.html">See more</a>
-      </div>
-      <div class="project">
-        <img src="images/one/Screenshot 2025-04-08 213805.png" alt="Project 4">
-        <h3>Project Four</h3>
-        <a href="https://barakamukungu.github.io/travel-app">See more</a>
-      </div>
-      <div class="project">
-        <img src="images/one/amazon clone.png" alt="Project 5">
-        <h3>Project Five</h3>
-        <a href="https://barakamukungu.github.io/project/amazon.html">See more</a>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="contact">
-    <div class="container">
-      <h2>Contact</h2>
-      <form action="https://formsubmit.co/3bf3df5809f5103ca1743331a0eb3b10" method="POST">
-        <input type="text" name="name" placeholder="Your Name" required>
-        <input type="email" name="email" placeholder="Your Email" required>
-        <textarea name="message" placeholder="Your Message" required></textarea>
-        <button type="submit">Send Message</button>
-      </form>
-    </div>
-  </section>
+    <section id="contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <form action="https://formsubmit.co/3bf3df5809f5103ca1743331a0eb3b10" method="POST">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea name="message" placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
 
   <footer>
     <div class="container">
-      <p>© 2025 barakamukungu</p>
+      <p>© 2025 Baraka Mukungu</p>
     </div>
   </footer>
 
   <script>
-    // Example string to display
     const text = "Hi👋, my name is Baraka Mukungu. I'm a web developer/designer passionate about building modern and responsive websites. I have experience with front-end and back-end technologies.";
-    const outputElement = document.getElementById("output");
+    const output = document.getElementById("output");
+    output.textContent = "";
 
-    function displayLetters(text) {
-      let index = 0;
-
-      // Use setInterval to display each letter with a delay
-      const interval = setInterval(() => {
-        outputElement.textContent += text[index]; // Append the current letter
-        index++;
-
-        // Clear the interval when all letters are displayed
-        if (index >= text.length) {
-          clearInterval(interval);
-        }
-      }, 200); // Delay of 200ms between each letter
-    }
-
-    // Call the function to start the animation
-    displayLetters(text);
+    let index = 0;
+    const interval = setInterval(() => {
+      output.textContent += text[index];
+      index++;
+      if (index === text.length) clearInterval(interval);
+    }, 30);
   </script>
 </body>
-</html> 
+</html>
