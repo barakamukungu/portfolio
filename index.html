@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Baraka Mukungu Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="brand">Baraka Bethely<span> Mukungu</span></div>
+
+    <!-- Hamburger button (only visible on small screens) -->
+    <div class="hamburger" id="hamburger">
+      ☰
+    </div>
+
+    <!-- Navigation links -->
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#why">Why Security?</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certs">Certificates</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a class="cta" href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero -->
+  <!-- Hero -->
+  <header class="hero">
+    <section class="hero">
+      <div class="hero-content">
+        <h1>I Build <span>& Secure Websites</span></h1>
+        <p>Helping small businesses and individuals get online safely.</p>
+      </div>
+      <div class="hero-image">
+        <img src="cybersec.jpeg" alt="Cybersecurity image" />
+      </div>
+    </section>
+  </header>
+
+  <!-- Why Security -->
+  <section id="why" class="features">
+    <h2>Why Security Matters</h2>
+    <div class="feature-cards">
+      <div class="card">Detection</div>
+      <div class="card">Prevention</div>
+      <div class="card">Transparency</div>
+      <div class="card">Efficiency</div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="proj-card">
+        <h3>Simple Port Scanner</h3>
+        <p>Lightweight TCP/UDP scanner in Python.</p>
+        <a href="https://github.com/barakamukungu/simscanner">See More</a>
+      </div>
+      <div class="proj-card">
+        <h3>Log Analyzer</h3>
+        <p>Finds anomalies in system/application logs.</p>
+        <a href="https://github.com/barakamukungu/log-analyzer">See More</a>
+      </div>
+      <div class="proj-card">
+        <h3>Subdomain Enumerator</h3>
+        <p>Discovers subdomains using passive & active techniques.</p>
+        <a href="https://github.com/barakamukungu/subnem">See More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+<!-- Services -->
+<section id="services" class="services">
+  <h2>What I Can Do for You</h2>
+  <p class="section-sub">
+    Whether you’re an individual or a small business owner, I’ll help you get online
+    with a website that not only looks great but is also safe from cyber threats.
+  </p>
+
+  <div class="services-grid">
+    <div class="service-card glow">
+      <h3>Website Development</h3>
+      <p>I’ll design and build you a modern, responsive website that fits your brand and works on any device.</p>
+    </div>
+    <div class="service-card glow">
+      <h3>Cybersecurity Protection</h3>
+      <p>Your site will be secured with SSL, safe configurations, and protection from common vulnerabilities — so you and your customers stay safe.</p>
+    </div>
+    <div class="service-card glow">
+      <h3>Ongoing Support</h3>
+      <p>I’ll be here after launch too — handling updates, maintenance, and monitoring so you can focus on running your business.</p>
+    </div>
+  </div>
+</section>
+
+  <!-- Certificates -->
+  <section id="certs" class="certs">
+    <h2>Certificates</h2>
+    <ul>
+      <li>Cybersecurity Fundamentals 
+        <a href="https://www.credly.com/badges/ff257232-b496-476f-af79-6f5dd089adae/public_url">Fortinet</a>
+        <a href="https://www.credly.com/badges/89f00cc5-7448-4f2b-95c1-284659161bf5/public_url">IBM</a>
+        <a href="https://www.credly.com/badges/1967a5d1-1e12-4e99-9096-4e7cbf29c235/public_url">Cisco</a>
+      </li>
+      <li>Python
+        <a href="https://www.credly.com/badges/1ad92388-3e6a-4f5f-b7d8-40842f1a8e6e/public_url">IBM</a>
+      </li>
+      <li>Networking
+        <a href="https://www.credly.com/badges/f90b5d0c-ce04-47ea-9632-faf86129d0b1/public_url">Cisco</a>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="cta">
+    <h2>Ready to Build & Secure Your Website?</h2>
+    <p>Let’s create something powerful and safe for your business.</p>
+    <button id="get-started-btn" class="btn big-glow">Get Started</button>
+  </section>
+
+    <!-- Contact Form Modal -->
+  <div id="contact-modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Contact Me</h2>
+      <form id="contact-form" action="https://formspree.io/f/mzzjblaj" method="POST">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <!-- Google reCAPTCHA widget -->
+        <div class="g-recaptcha" data-sitekey="6Ld4zdMrAAAAACJTkKVpQBMx8HiHWrWm117VsWjb"></div>
+
+        <button type="submit" id="submit-btn">
+          <span class="btn-text">Send</span>
+          <span class="spinner"></span>
+        </button>
+        <p id="form-status"></p> <!-- success/error message here -->
+      </form>
+    </div>
+  </div>
+
+  <!-- Contact -->
+  <footer id="contact" class="footer">
+    <h3>Get in Touch</h3>
+    <p>Email: <a href="mailto:you@example.com">bethelybaraka@gmail.com</a></p>
+    <p class="small">© 2025 Baraka Bethely Mukungu</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</body>
+</html>
