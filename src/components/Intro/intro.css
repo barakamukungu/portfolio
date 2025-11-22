@@ -58,6 +58,9 @@
 }
 
 @media screen and (max-width:720px) {
+  #intro {
+    margin-bottom: 100px;
+  }
   .introContent {
     font-size: 6vw;
   }

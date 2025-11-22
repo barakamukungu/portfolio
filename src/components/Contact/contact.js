@@ -1,50 +1,45 @@
 import React, { useRef } from 'react';
 import './contact.css';
-import FacebookIcon from '../../assets/linkedin.svg';
-import TwitterIcon from '../../assets/github.svg';
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
   const form = useRef();
+
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
       .sendForm('service_93w6u3h', 'template_3twzx85', form.current, {
-        publicKey: '2bzatYm9PdUfOhHb7',
+        publicKey: 'MmGFD-ZzHS5LxAtwD',
       })
       .then(
         () => {
-          console.log(XPathResult.text);
+          console.log("SUCCESS!");
           e.target.reset();
-          alert('Email Sent !');
+          alert('Email Sent!');
         },
         (error) => {
           console.log(error.text);
-        },
+          alert("Failed to send email. Check console.");
+        }
       );
   };
 
   return (
     <section id='contactPage'>
-      {/*<div id='clients'>
-        <h1 className='contactPageTitle'>My Clients</h1>
-        <p className='clientDesc'>I have had the opportunity to work with a diverse group of companies. Some of the notable companies I hae worked with includes</p>
-        <div className='clientImgs'>
-          <img src={Walmart} alt='Client' className='clientImg' />
-          <img src={Adobe} alt='Client' className='clientImg' />
-          <img src={Microsoft} alt='Client' className='clientImg' />
-          <img src={Facebook} alt='Client' className='clientImg' />
-        </div>
-      </div>*/}
       <div id='contact'>
         <h1 className='contactPageTitle'>Contact Me</h1>
-        <span className='contactDesc'>Please fill out the form below to discuss any work opportunities.</span>
+        <span className='contactDesc'>
+          Please fill out the form below to discuss any work opportunities.
+        </span>
+
         <form className='contactForm' ref={form} onSubmit={sendEmail}>
-          <input type='text' className='name' placeholder='Your Name' name='your_name' />
-          <input type='email' className='email' placeholder='Your Email' name='your_email' />
-          <textarea className='msg' name='message' rows="5" placeholder='Your Message'></textarea>
-          <button type='submit' value='Send' className='submitBtn'>Submit</button>
+          <input type='text' className='name' placeholder='Your Name' name='your_name' required />
+          <input type='email' className='email' placeholder='Your Email' name='your_email' required />
+          <textarea className='msg' name='message' rows="5" placeholder='Your Message' required></textarea>
+
+          <button type='submit' className='submitBtn'>Submit</button>
+
           <div className='links'>
             <a href='https://github.com/barakamukungu/' className='Link'>
               <img src={TwitterIcon} alt='GitHub' className='github-icon' />
@@ -58,6 +53,6 @@ const Contact = () => {
       </div>
     </section>
   );
-}
+};
 
-export default Contact
+export default Contact;
