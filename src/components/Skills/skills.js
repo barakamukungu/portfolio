@@ -7,8 +7,7 @@ const Skills = () => {
   return (
     <section id='skills'>
       <span className='skillTitle'>What I do</span>
-      <span className='skillDesc'>Whether you’re an individual or a small business owner, I’ll help you get online
-      with a website that not only looks great but is also safe from cyber threats.</span>
+      <span className='skillDesc'>I use data to solve problems, uncover insights, and support decision-making through analysis, dashboards, and security data investigation.</span>
       <div className='skillBars'>
         <div className='skillBar'>
           <FontAwesomeIcon icon={faCode} className='skillBarImg' />
