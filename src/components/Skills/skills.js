@@ -13,22 +13,24 @@ const Skills = () => {
         <div className='skillBar'>
           <FontAwesomeIcon icon={faCode} className='skillBarImg' />
           <div className='skillBarText'>
-            <h2>Website development</h2>
-            <p>I’ll design and build you a modern, responsive website that fits your brand and works on any device.</p>
+            <h2>Data Analysis (SQL & Python)</h2>
+            <p>I analyze large datasets using SQL and Python to uncover trends, patterns, and actionable insights.</p>
           </div>
         </div>
+        
         <div className='skillBar'>
           <FontAwesomeIcon icon={faShieldAlt} className='skillBarImg' />
           <div className='skillBarText'>
-            <h2>Cybersecurity Protection</h2>
-            <p>Your site will be secured with SSL, safe configurations, and protection from common vulnerabilities — so you and your customers stay safe.</p>
+            <h2>Dashboarding (Excel)</h2>
+            <p>I build interactive dashboards using Excel to visualize performance metrics, trends, and business insights.</p>
           </div>
         </div>
+        
         <div className='skillBar'>
           <FontAwesomeIcon icon={faHandsHelping} className='skillBarImg' />
           <div className='skillBarText'>
-            <h2>Ongoing Support</h2>
-            <p>I’ll be here after launch too — handling updates, maintenance, and monitoring so you can focus on running your business.</p>
+            <h2>Security & Log Analysis</h2>
+            <p>I analyze system and network logs to identify suspicious activity, traffic patterns, and potential threats.</p>
           </div>
         </div>
       </div>
