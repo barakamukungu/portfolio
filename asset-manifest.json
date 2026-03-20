@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.67805cfc.css",
-    "main.js": "/portfolio/static/js/main.602ead35.js",
+    "main.css": "/portfolio/static/css/main.ffc07dd2.css",
+    "main.js": "/portfolio/static/js/main.b0847e6b.js",
     "static/media/image.jpg": "/portfolio/static/media/image.1cc216e8fd79499d96d0.jpg",
-    "static/media/portfolio-6.png": "/portfolio/static/media/portfolio-6.4a10fac7d271e87859e9.png",
-    "static/media/portfolio-2.png": "/portfolio/static/media/portfolio-2.33d06b368b4e6395030e.png",
-    "static/media/portfolio-4.png": "/portfolio/static/media/portfolio-4.8e8bac5e33dc3f211e2b.png",
-    "static/media/portfolio-3.png": "/portfolio/static/media/portfolio-3.ca4192894d93b08ad3b5.png",
     "static/media/logo.jpg": "/portfolio/static/media/logo.9039226ee2e3812b1ad5.jpg",
     "static/media/menu.jpg": "/portfolio/static/media/menu.4fee88ac433a809b05cc.jpg",
+    "static/media/crm.png": "/portfolio/static/media/crm.abba581e0de729de30c8.png",
+    "static/media/sentiment_scores.png": "/portfolio/static/media/sentiment_scores.83a9122ecab633807401.png",
+    "static/media/protocol_distribution.png": "/portfolio/static/media/protocol_distribution.41160f8a6907601d1a53.png",
+    "static/media/revenue_by_hour.png": "/portfolio/static/media/revenue_by_hour.84b0ce6ea3a9cdd3ea58.png",
     "static/media/github.svg": "/portfolio/static/media/github.a361e98e9928b13c98e3b1bea648515c.svg",
     "index.html": "/portfolio/index.html",
     "static/media/linkedin.svg": "/portfolio/static/media/linkedin.5a920154bff04440d08944d135520db3.svg",
-    "main.67805cfc.css.map": "/portfolio/static/css/main.67805cfc.css.map",
-    "main.602ead35.js.map": "/portfolio/static/js/main.602ead35.js.map"
+    "main.ffc07dd2.css.map": "/portfolio/static/css/main.ffc07dd2.css.map",
+    "main.b0847e6b.js.map": "/portfolio/static/js/main.b0847e6b.js.map"
   },
   "entrypoints": [
-    "static/css/main.67805cfc.css",
-    "static/js/main.602ead35.js"
+    "static/css/main.ffc07dd2.css",
+    "static/js/main.b0847e6b.js"
   ]
 }
